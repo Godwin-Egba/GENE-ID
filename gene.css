@@ -102,20 +102,22 @@ font-family:'Courier New', Courier, monospace;
         .pap p{
             margin-left:0rem ;
             margin-right: 0rem;
-            line-height: 20px;
+            margin-top: 2rem;
+            line-height: 23px;
             font-size: 20px;
             font-weight: 600;
         }
 
         .pap h2{
+            /* padding-right: 1.5rem ; */
             font-weight: 700;
             font-size: 35px;
         }
 
         .pap{
             position: absolute;
-            top: 25%;
-            left: 5px;
+            top: 30%;
+            left: 2px;
             font-family: 'Courier New', Courier, monospace;
             
         }
@@ -131,6 +133,13 @@ font-family:'Courier New', Courier, monospace;
         .navbar-nav{
             /* background-color: #00b4d8; */
             background: url(./images/gene-log.gif);
+        }
+
+        .pap button{
+            margin-top: 3rem;
+            font-weight: 800;
+            background-color: white;
+            color: #00b4d8;
         }
 
 
