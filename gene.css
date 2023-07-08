@@ -34,7 +34,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 #collapsibleNavId a:hover {
     background-color:white;
     font-size: 1.5rem;
-    color: #00b4d8;
+    color: #00b4d8 !important;
     border-radius: 10px;
     padding: 5px 15px;
     font-weight: 100;
@@ -76,10 +76,10 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 .pap button{
     margin-top: 2rem;
-    font-weight: 800;
+    font-weight: 500;
 }
 .pap button:hover{
-    font-weight: 800;
+    font-weight: 500;
     background-color: white;
     color: #00b4d8;
 }
@@ -197,7 +197,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 .tit{
     font-size: 15px !important;
-    color: red !important;
+    color:#00b4d8!important;
     line-height: 5px;
 }
 
@@ -292,6 +292,30 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .rate{
     margin-top: 3rem;
 }
+
+.contacts{
+    background-color:white;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.cardhead{
+    color:#00b4d8;
+    font-size: 40px;
+   
+}
+
+.cardbody h2{
+    color: #00b4d8;
+}
+.cardbody p{
+    color: gray;
+    font-weight: 500;
+}
+
+
+
+
 
 
 
