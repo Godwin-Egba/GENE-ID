@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: url(./images/gene-log.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.formcard{
+    margin-top: 5rem;
+    border-radius: 10px;
+
+}
+
+.text{
+    color: white;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.Eye{
+    position: relative;
+
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #00b4d8;
+    color: white;
+}
+.btn:hover{
+    font-size: 20px;
+    font-weight: 400;
+    color:#00b4d8;
+    background-color: white;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    top:48px;
+
+}
+
+.sign{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+span a{
+    color:yellow;
+}
+span a:hover{
+    color: white;
+}
+ .formcard p{
+    /* background-color:#ffffff22; */
+    font-weight: 600;
+    font-size: 18px;
+    color: yellow;
+ }
+
+
+
+
+@media (max-width:480px) {
+
+
+    .formcard{
+      
+        margin-top: 0rem;
+      
+        padding: 0.5rem;
+    
+    }
+
+    body{
+        background: url(./images/gene-log.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .text{
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+
+
+
+
+
+
+
+
+}

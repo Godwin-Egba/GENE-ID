@@ -215,7 +215,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .boderline{
-    border: 12px solid rgba(206, 206, 233, 0.395);
+    border: 12px solid white;
     border-radius: 10px;
     border-top: none;
     margin-top: 3rem;
@@ -263,7 +263,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .doctor{
-    border: 12px solid rgba(206, 206, 233, 0.395);
+    border: 12px solid white;
     border-top: none;
     border-radius: 10px;
 }
@@ -358,6 +358,23 @@ footer i:hover{
 cursor: pointer;
 }
 
+
+.btn{
+    background-color: #00b4d8;
+}
+.btn:hover{
+    background-color: white;
+}
+
+.btn a{
+    color: white;
+
+}
+.btn a:hover{
+    color: #00b4d8;
+    text-decoration: none;
+
+}
 
 
 
