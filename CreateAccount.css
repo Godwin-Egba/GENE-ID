@@ -5,101 +5,144 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     background: url(./images/gene-log.gif);
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
 }
 
-.formcard{
+.formcard {
     margin-top: 5rem;
     border-radius: 10px;
 
 }
 
-.text{
+.text {
     color: white;
     font-weight: 500;
     font-size: 21px;
 }
 
-.Eye{
+.Eye {
     position: relative;
 
 }
 
-.btn{
+.btn {
     font-size: 20px;
     font-weight: 400;
     background-color: #00b4d8;
     color: white;
 }
-.btn:hover{
+
+.btn:hover {
     font-size: 20px;
     font-weight: 400;
-    color:#00b4d8;
+    color: #00b4d8;
     background-color: white;
 }
 
-.toggle{
+.toggle {
     position: absolute;
     right: 20px;
-    top:48px;
+    top: 45px;
 
 }
 
-.sign{
+.sign {
     font-size: 20px;
     font-weight: 400;
 }
 
-span a{
-    color:yellow;
+span a {
+    color: yellow;
 }
-span a:hover{
+
+span a:hover {
     color: white;
 }
- .formcard p{
+
+.formcard p {
     /* background-color:#ffffff22; */
     font-weight: 600;
     font-size: 18px;
     color: yellow;
- }
+}
+
+.nav-tabs {
+    border: none;
+    padding-top: 4rem;
+}
+
+
+.text {
+    color: white;
+    font-size: 18px;
+}
+
+.container span {
+    color: white;
+}
+
+.link a {
+    color: white;
+    font-weight: 600;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #00b4d8;
+    color: white;
+}
+
+.btn:hover {
+    font-size: 20px;
+    font-weight: 400;
+    color: #00b4d8;
+    background-color: white;
+}
+
+.nav-item a{
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
 
 
 
 
 @media (max-width:480px) {
 
-
-    .formcard{
-      
-        margin-top: 0rem;
-      
-        padding: 0.5rem;
-    
+    .nav-tabs {
+        border: none;
     }
 
-    body{
+
+    .formcard {
+
+        margin-top: 0rem;
+
+        padding: 0.5rem;
+
+    }
+
+    body {
         background: url(./images/gene-log.gif);
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
     }
 
-    .text{
+    .text {
         color: white;
         font-size: 20px;
         font-weight: 500;
     }
 
-
-
-
-
-
-
-
+    .tab {
+        height: 100vh;
+    }
 
 }

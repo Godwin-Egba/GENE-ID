@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,93 +8,123 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
     <!-- Boostrap css -->
-        <link rel="stylesheet" href="./Plugins/bootstrap/css/bootstrap.css">
-        <!-- font awesome css -->
-        <link rel="stylesheet" href="./Plugins/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Plugins/bootstrap/css/bootstrap.css">
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="./Plugins/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./CreateAccount.css">
     <title>Document</title>
 </head>
+
 <body>
 
-  
-    <form action="./serach">
-    <div class="container">
 
-     
-<div class="  formcard">
 
-    <h3 class="pt-2 text-light text-center">Create Account</h3>
+    <div class="tab">
+        <ul class="nav nav-tabs justify-content-center " id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                    aria-selected="true">Create Account</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                    aria-controls="profile" aria-selected="false">Log In Here</a>
+            </li>
 
-    
-  
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <form action="./serach">
+                    <div class="container">
 
-        <div class="row justify-content-center">
 
-        <div class=" col-md-4 mt-2 ">
-            <label class="text " for="Name">FirstName</label>
-            <input class="form-control py-4" type="text" placeholder="Enter Your Firstname" aria-hidden="true" required>
+                        <div class="  formcard">
+
+                            <div class="row justify-content-center">
+                                <div class=" col-md-4 mt-2 ">
+                                    <label class="text " for="Name">FirstName</label>
+                                    <input class="form-control py-4" type="text" placeholder="Enter Your Firstname"
+                                        aria-hidden="true" required>
+                                </div>
+                                <div class=" col-md-4 mt-2 ">
+                                    <label class=" text" for="text">LastName</label>
+                                    <input class="form-control py-4" type="text" placeholder="Enter Your Lastname"
+                                        required>
+                                </div>
+                            </div>
+
+
+
+                            <div class="form-row Eye justify-content-center">
+                                <div class=" mt-2 col-md-8">
+                                    <label class="text" for="">Personal Email</label>
+                                    <input class="form-control py-4" type="text" placeholder="Enter Your Email Address"
+                                        required>
+                                </div>
+
+                                <div class=" mt-2 col-md-8">
+                                    <label class="text" for="">Phone Number</label>
+                                    <input class="form-control py-4" type="Phone" placeholder="Enter Your Phone Number"
+                                        required>
+                                </div>
+
+                                <div class=" mt-2 col-md-8">
+                                    <label class="text" for="">Create Password</label>
+                                    <input class="form-control py-4" type="password"
+                                        placeholder="Enter Password (min. of 8 character)" required>
+                                    <i class="fa fa-eye text-dark toggle fa-2x" aria-hidden="true"></i>
+                                </div>
+
+                            </div>
+                            <div class=" shadow d-flex justify-content-center mt-4 ">
+                                <button class=" btn">Create account</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                <div class="container mt-4 Eye">
+
+
+
+                    <div class="col-md-6 mx-auto py-5 ">
+                        <form action="">
+
+                            <label for="" class="text">Email Address</label>
+                            <input type="text" class="form-control py-4" placeholder="Enter Email Address" required>
+                        
+                                
+                                <label for="" class="text">Password</label>
+                                <input type="text" class="form-control py-4"
+                                    placeholder="Enter Password (min. of 8 character)" required>
+                        
+
+                            <p class=" mt-2 link"><a href="#">Forgot password <span><svg xmlns="http://www.w3.org/2000/svg"
+                                            width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short"
+                                            viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg></span></a>
+                            </p>
+
+                            <div class="shadow d-flex justify-content-center mt-4">
+                                <button class="btn  form-control">Log In</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class=" col-md-4 mt-2 ">
-            <label class=" text" for="text">LastName</label>
-            <input class="form-control py-4" type="text" placeholder="Enter Your Lastname" required>
-        </div>
-
-        </div>
-
-      
-
-     <div class="form-row Eye justify-content-center">
-        <div class=" mt-2 col-md-8">
-            <label class="text" for="">Personal Email</label>
-            <input class="form-control py-4" type="text" placeholder="Enter Your Email Address" required>
-        </div>
-      
-        <div class=" mt-2 col-md-8">
-            <label class="text" for="">Phone Number</label>
-            <input class="form-control py-4" type="Phone" placeholder="Enter Your Phone Number" required>
-        </div>
-      
-        <div class=" mt-2 col-md-8">
-            <label class="text" for="">Create Email</label>
-            <input class="form-control py-4" type="password" placeholder="Enter Password (min. of 8 character)" required>
-            <i class="fa fa-eye text-dark toggle fa-2x" aria-hidden="true"></i>
-           
-        </div>
-
     </div>
 
-    <div class=" shadow d-flex justify-content-center mt-4 ">
-        <button class=" btn">Create account</button>
-    </div>
-  
 
-     <div class=" col-md-8 offset-md-2  already mt-2">
-        <p class="d-flex justify-content-center">Already have an account? <span class="ml-3 sign"><a href="http://127.0.0.1:5501/SignIn.html">Sign In</a></span></p>
-     </div>
-</div>
-
-   
-
-
-
-
-
-
-
-
-        
-
-        
-   
-    </div>
-</form>
-
-
-
-
-
-
-  
-
+    <!-- optional javascript -->
+    <script src="./Plugins/bootstrap/js/jquery.min.js"></script>
+    <!-- JQuary -->
+    <script src="./Plugins/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
