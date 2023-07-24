@@ -359,22 +359,10 @@ cursor: pointer;
 }
 
 
-.btn{
-    background-color: #00b4d8;
-}
-.btn:hover{
-    background-color: white;
-}
 
-.btn a{
-    color: white;
 
-}
-.btn a:hover{
-    color: #00b4d8;
-    text-decoration: none;
 
-}
+
 
 
 
